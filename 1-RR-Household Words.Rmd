@@ -19,7 +19,7 @@ My current contention in my dissertation is that work rhetoric rises in the BAAS
 This script combines my Word Flagging and KWIC (tokenizer script) methods in order to create an interactive illustration of the frequency with which the terms "play", "player", "recreation", "work", "worker", and "labor" were referenced in *Household Words*. The goal is to determine the context for work and play rhetoric in that publication.
 
 ```{r Household Words Parameters,  eval=FALSE}
-    HouseholdWordslocation <- paste0(getwd(),"/Household-Words")
+    HouseholdWordslocation <- paste0(getwd())
     HouseholdWordsdoclocation <- paste0(HouseholdWordslocation,"/Documents")
     HouseholdWordslongconlength <- 250
     HouseholdWordsshortconlength <- 3
